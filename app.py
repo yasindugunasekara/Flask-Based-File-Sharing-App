@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Set upload folder, download folder, and allowed extensions
 UPLOAD_FOLDER = "uploads"
 DOWNLOAD_FOLDER = "downloads"
-ALLOWED_EXTENSIONS = {"jpg", "jpeg", "png", "gif", "bmp", "webp", "pdf", "txt", "docx", "zip", "mp4", "mp3", "wav", "avi", "mov"}
+ALLOWED_EXTENSIONS = {"jpg", "jpeg", "png", "gif", "bmp", "webp", "pdf", "txt", "docx", "zip", "mp4", "mp3", "wav", "avi", "mov","m4a","html","css","js","json","xml","csv","pptx","xlsx","doc","ppt","xls","mpg","mpeg","flv","wmv","webm","ogg","ogv","svg","tiff","tif","eps","ai","indd","psd","raw","dng","3gp","3g2","mkv","m4v","asf","divx","dv","vob","rmvb","rm","swf","flv","f4v","f4p","f4a","f4b","m2ts","mts","ts","tp","trp","wtv","dvr-ms","mxf","xavc","xavc-s","xavc-l","xavc-hs","xavc-4k","xavc-8k","xavc-12k","xavc-16k","xavc-24k","xavc-32k","xavc-48k","xavc-64k","xavc-128k","xavc-256k","xavc-512k","xavc-1m","xavc-2m","xavc-4m","xavc-8m"}
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 
